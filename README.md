@@ -8,6 +8,7 @@ Including courses<br>
   <li>AE4140 Gas Dynamics</li>
   <li>AE 420 Finite Element Analysis </li>
   <li>AE 451 Aeroelasticity </li>
+  <li>AE4130-22 Aircraft Aerodynamics</li>
   <li>AE4115-23 Experimental Simulations</li>
   <li>AE4136-24 CFD 2 Discretisation Techniques</li>
   <li>AE4180 Flow Measurement Techniques</li>
