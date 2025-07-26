@@ -1,0 +1,12 @@
+E=100;
+L=1;
+I=1;
+P0=2;
+x=linspace(0,1,100)
+wx=P0/(120*E*I*L)*x.^5-P0*L/(60*E*I)*x.^3+P0*L^3/(120*E*I)*x
+wxrrm=P0*L^3/(120*E*I).*x-P0*L^2/(60*E*I)*x.^2+P0*L/(120*E*I)*x.^3
+plot(x,wx,'b-',x,wxrrm,'go',LineWidth=2)
+xlabel('x')
+ylabel('w(x)')
+legend('exact','numerical')
+%max(wx-wxrrm)
