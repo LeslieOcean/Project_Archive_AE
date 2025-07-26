@@ -1,5 +1,4 @@
 # Solution of 1D Poisson’s equation with FDM
-# Wei Wei (c) 2024
 import numpy as np
 import matplotlib.pyplot as plt
 
